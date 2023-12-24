@@ -24,13 +24,15 @@ ul {
     overflow: hidden;
 }
 
+/*-----------HEADER-----------------*/
+
 .header-logo {
     font-family: 'Raleway', sans-serif;
     color: var(--NAVY-BLUE, #2E2F42);
         font-family: Raleway;
         font-size: 18px;
         font-weight: 700;
-        line-height: 1.16;
+        line-height: 1.17;
         /* 116.667% */
         letter-spacing: 0.03em;
 }
@@ -63,6 +65,10 @@ color: unset
 color: unset
 }
 
+/*--------------------------------*/
+
+/*-----------HERO-----------------*/
+
 .hero {
     background: var(--NAVY-BLUE, #2E2F42);
 }
@@ -90,6 +96,8 @@ color: unset
         letter-spacing: 0.04em;
         cursor: pointer;
 }
+
+/*--------------------------------*/
 
 /*-----------FEATURES-----------------*/
 
