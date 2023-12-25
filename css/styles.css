@@ -41,6 +41,7 @@ ul {
 }
 
 .header-logo-color {
+    font-family: "Raleway", sans-serif;
     color: var(--NAVY-BLUE, #2E2F42);
 }
 
@@ -54,10 +55,7 @@ ul {
         letter-spacing: 0.02em;
 }
 
-.header-menu-item:hover {
-color: #404bbf;
-}
-
+.header-menu-item:hover, 
 .header-menu-item:focus {
     color: #404bbf;
 }
