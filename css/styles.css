@@ -38,7 +38,7 @@ font-family: "Raleway", sans-serif;
 }
 
 .header-menu-page:hover,
-.header-menu-item:focus {
+.header-menu-page:focus {
         color: #404bbf;
     }
 
