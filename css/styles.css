@@ -28,6 +28,20 @@ ul {
 
 /*-----------HEADER-----------------*/
 
+.header {
+font-family: "Raleway", sans-serif;
+}
+
+.header-menu-page {
+    color: #2e2f42;
+    
+}
+
+.header-menu-page:hover,
+.header-menu-item:focus {
+        color: #404bbf;
+    }
+
 .header-logo {
     font-family: "Raleway", sans-serif;
     color: var(--IRIS, #4D5AE5);
