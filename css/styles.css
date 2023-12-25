@@ -1,5 +1,7 @@
 body {
-    font-family: Roboto; sans-serif;
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+    background-color: #FFFFFF;
 }
 
 a {
@@ -27,8 +29,9 @@ ul {
 /*-----------HEADER-----------------*/
 
 .header-logo {
-    font-family: 'Raleway', sans-serif;
-    color: var(--NAVY-BLUE, #2E2F42);
+    font-family: "Raleway", sans-serif;
+    color: var(--IRIS, #4D5AE5);
+    text-transform: uppercase;
         font-family: Raleway;
         font-size: 18px;
         font-weight: 700;
@@ -38,11 +41,12 @@ ul {
 }
 
 .header-logo-color {
-    color: var(--IRIS, #4D5AE5) ;
+    color: var(--NAVY-BLUE, #2E2F42);
 }
 
-.header-menu-item{
+.header-menu-item {
     font-family: Roboto;
+    color: var(--NAVY-BLUE, #2E2F42);
         font-size: 16px;
         font-weight: 500;
         line-height: 1.5;
@@ -50,7 +54,22 @@ ul {
         letter-spacing: 0.02em;
 }
 
+.header-menu-item:hover {
+color: #404bbf;
+}
+
+.header-menu-item:focus {
+    color: #404bbf;
+}
+    
+
+.header-address {
+    font-style: normal;
+}
+
+
 .header-menu-link {
+    color: var(--SLATE, #434455);
     font-family: Roboto;
         font-size: 16px;
        line-height: 1.5;
@@ -58,11 +77,11 @@ ul {
         letter-spacing: 0.02em;
 }
 
-.header-menu-link: hover {
-color: unset
+.header-menu-link:hover {
+color: #404bbf;
 }
-.header-menu-link: :focus {
-color: unset
+.header-menu-link:focus {
+color: #404bbf;
 }
 
 /*--------------------------------*/
@@ -86,8 +105,8 @@ color: unset
 
 .hero-button {
         color: var(--WHITE, #FFF);
-        /* Button Text */
-        font-family: inherit;
+        background-color: #4D5AE5;
+        font-family: "Roboto", sans-serif;
         font-size: 16px;
         font-style: inherit;
         font-weight: 500;
@@ -95,6 +114,14 @@ color: unset
         /* 150% */
         letter-spacing: 0.04em;
         cursor: pointer;
+}
+
+.hero-button:hover {
+    color: #404bbf;
+}
+
+.hero-button:focus {
+    color: #404bbf;
 }
 
 /*--------------------------------*/
@@ -133,11 +160,14 @@ color: unset
 /*-----------OUR TEAM-----------------*/
 
 
-.team {}
+.team {
+    background-color: #F4F4FD;
+}
 
 .team-title {
 
     color: var(--NAVY-BLUE, #2E2F42);
+    background-color: #FFFFFF;
         text-align: center;
         /* Header 2 */
         font-size: 36px;
@@ -224,8 +254,8 @@ color: var(--NAVY-BLUE, #2E2F42);
 
 .footer-logo {
 
-    color: var(--CLOUD, #F4F4FD);
-        font-family: Raleway;
+    color: var(--IRIS, #4D5AE5);
+        font-family: "Raleway", sans-serif;
         font-size: 18px;
         font-style: normal;
         font-weight: 700;
@@ -236,12 +266,13 @@ color: var(--NAVY-BLUE, #2E2F42);
 }
 
 .footer-logo-color {
-    color: var(--IRIS, #4D5AE5);
+    color: var(--CLOUD, #F4F4FD);
 }
 
 .footer-text {
 
     color: var(--CLOUD, #F4F4FD);
+
         font-size: 16px;
         font-weight: 400;
         line-height: 1.5;
