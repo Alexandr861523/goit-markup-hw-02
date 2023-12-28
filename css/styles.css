@@ -41,7 +41,7 @@ ul {
     }
 
 .header-logo {
-    
+    font-family: "Raleway", sans-serif;
     color: var(--IRIS, #4D5AE5);
     text-transform: uppercase;
         
