@@ -41,7 +41,7 @@ font-family: "Raleway", sans-serif;
     }
 
 .header-logo {
-    font-family: "Raleway", sans-serif;
+    
     color: var(--IRIS, #4D5AE5);
     text-transform: uppercase;
         font-family: Raleway;
@@ -53,7 +53,7 @@ font-family: "Raleway", sans-serif;
 }
 
 .header-logo-color {
-    font-family: "Raleway", sans-serif;
+    
     color: var(--NAVY-BLUE, #2E2F42);
 }
 
